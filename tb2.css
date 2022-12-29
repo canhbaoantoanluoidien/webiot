@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #f2ecec;
+    border-radius: 30px;
+    height: 650px;
+    width: 350px;
+}
+.csw-btn-button {
+   
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px 5px;
+    color: #ffffff !important;
+    border-radius: 20px;
+    background: #1d3f9b;
+    border: 1px solid #fffefb;
+    transition: 0.4s;
+    text-decoration: none;
+     /* bỏ gạch chân */
+  }
+  .csw-btn-button:hover {
+    background: #292929;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1b2a49;
+}
+
+
+.btn5-hover {
+ width: 100px;
+ font-size: 16px;
+ font-weight: 600;
+ color: #fff;
+ cursor: pointer;
+ margin: 10px;
+ height: 40px;
+ text-align:center;
+ border: none;
+ background-size: 100% 100%;
+ border-radius: 50px;
+ /* moz-transition: all .4s ease-in-out; */
+ -o-transition: all .4s ease-in-out;
+ -webkit-transition: all .4s ease-in-out;
+ transition: all .4s ease-in-out;
+}
+.btn5-hover:hover {
+ background-position: 100% 0;
+ /* moz-transition: all .4s ease-in-out; */
+ -o-transition: all .4s ease-in-out;
+ -webkit-transition: all .4s ease-in-out;
+ transition: all .4s ease-in-out;
+}
+.btn5-hover:focus {
+ outline: none;
+}
+.btn5-hover.btn5 {
+   background-image: linear-gradient(
+     to right,
+     #e18625,
+     #eb8a44,
+     #fe7904,
+     #dced3f
+   );
+   box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+
+
+.btn5-hover2 {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+   }
+   .btn5-hover2:hover {
+    background-position: 100% 0;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+   }
+   .btn5-hover2:focus {
+    outline: none;
+   }
+   .btn5-hover2.btn6 {
+      background-image: linear-gradient(
+        to right,
+        #25aae1,
+        #4481eb,
+        #04befe,
+        #3f86ed
+      );
+      box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+   }
